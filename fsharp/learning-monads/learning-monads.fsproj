@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>learning_monads</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Composition\Composition.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
