@@ -1,5 +1,3 @@
-package io.monad
-
 /**
  * This function is a **morphism**, it takes in a type A and returns type B
  */

@@ -1,5 +1,3 @@
-package io.monad
-
 fun main(args: Array<String>) {
     // Composer example
     val f: (String) -> String = { "$it World" }

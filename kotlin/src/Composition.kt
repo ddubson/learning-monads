@@ -1,5 +1,3 @@
-package io.monad
-
 class Composer<A, B, C> {
     /*
 

@@ -1,5 +1,3 @@
-package io.monad
-
 interface Monoid<T> {
     fun mempty(): T
 
