@@ -1,4 +1,8 @@
+// Writer type
 data class Writer<T>(val item: T, val message: String)
+
+// Writer type identity morphism
+fun <T> identity(item: T): Writer<T> = Writer(item, "")
 
 fun main() {
     val writerComposer = WriterComposer<Int, Int, Int>()
